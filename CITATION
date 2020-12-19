@@ -1,8 +1,39 @@
 To cite the use of this formal theory, please use
 
+  Achim D. Brucker and Michael Herzberg. The Safely Composable DOM. In Archive of
+  Formal Proofs, 2020. http://www.isa-afp.org/entries/Core_SC_DOM.html,
+  Formal proof development
 
 A BibTeX entry for LaTeX users is
 
+@Article{         brucker.ea:afp-core-sc-dom:2020,
+  author        = {Achim D. Brucker and Michael Herzberg},
+  title         = {The Safely Composable {DOM}},
+  journal       = {Archive of Formal Proofs},
+  month         = sep,
+  year          = 2020,
+  date          = {2020-09-28},
+  note          = {\url{http://www.isa-afp.org/entries/Core_SC_DOM.html}, Formal proof development},
+  issn          = {2150-914x},
+  abstract      = { In this AFP entry, we formalize the core of the Safely Composable Document Object Model (SC DOM).
+                  The SC DOM improve the standard DOM by strengthening the tree boundaries set by shadow roots: in the
+                  SC DOM, the shadow root is a sub-class of the document class (instead of a base class).
+
+                  This modifications also results in changes to some API methods (e.g., getOwnerDocument) to return the
+                  nearest shadow root rather than the document root. As a result, many API methods that, when called on
+                  a node inside a shadow tree, would previously ``break out'' and return or modify nodes that are
+                  possibly outside the shadow tree, now stay within its boundaries. This change in behavior makes
+                  programs that operate on shadow trees more predictable for the developer and allows them to make more
+                  assumptions about other code accessing the DOM. },
+  public        = {yes},
+  classification= {formal},
+  categories    = {websecurity},
+  pdf           = {http://www.brucker.ch/bibliography/download/2020/brucker.ea-afp-core-sc-dom-2020.pdf},
+  filelabel     = {Outline},
+  file          = {http://www.brucker.ch/bibliography/download/2020/brucker.ea-afp-core-sc-dom-outline-2020.pdf},
+  areas         = {formal methods, security, software engineering},
+  url           = {http://www.brucker.ch/bibliography/abstract/brucker.ea-afp-core-sc-dom-2020}
+}
 
 
 An overview of the formalization is given in:
@@ -12,6 +43,7 @@ An overview of the formalization is given in:
   ACM Press, 2018. doi:10.1145/3184558.3185980
 
 A BibTeX entry for LaTeX users is
+
 @InProceedings{ brucker.ea:core-dom:2018,
 	abstract = {At its core, the Document Object Model (DOM) defines a tree-like           
                     data structure for representing documents in general and HTML  
