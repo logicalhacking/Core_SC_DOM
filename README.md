@@ -36,8 +36,8 @@ Assurance & Security Research Team](https://logicalhacking.com) at
 * Achim D. Brucker and Michael Herzberg. A Formal Semantics of the Core DOM in 
   Isabelle/HOL. In The 2018 Web Conference Companion (WWW). Pages 741-749, 
   ACM Press, 2018.
-  https://www.brucker.ch/bibliography/abstract/brucker.ea-core-dom-2018
+  <https://www.brucker.ch/bibliography/abstract/brucker.ea-core-dom-2018>
 * Achim D. Brucker and Michael Herzberg. Formalizing (Web) Standards: An 
   Application of Test and Proof. In TAP 2018: Tests And Proofs. Lecture Notes 
   in Computer Science (10889), pages 159-166, Springer-Verlag, 2018.
-  https://www.brucker.ch/bibliography/abstract/brucker.ea-standard-compliance-testing-2018
+  <https://www.brucker.ch/bibliography/abstract/brucker.ea-standard-compliance-testing-2018>
